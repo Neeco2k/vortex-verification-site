@@ -1,0 +1,15 @@
+
+{
+  "particles": {
+    "number": { "value": 80 },
+    "color": { "value": "#5865F2" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "move": { "enable": true, "speed": 2 }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": { "onhover": { "enable": true, "mode": "repulse" } }
+  }
+}
