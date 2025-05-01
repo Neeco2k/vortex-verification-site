@@ -12,7 +12,9 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Serve static files (your index.html and assets)
-app.use(express.static(path.join(__dirname, '..')));
+// Serve static files (your index.html and assets)
+app.use(express.static(__dirname));
+
 
 // Discord Bot setup
 const client = new Discord.Client({ intents: [
